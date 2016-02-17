@@ -1,0 +1,364 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'cordova',
+1 verbose cli   'plugin',
+1 verbose cli   'add',
+1 verbose cli   'https://git-wip-us.apache.org/repos/asf/cordova-plugin-geolocation.git' ]
+2 info using npm@2.14.4
+3 info using node@v4.1.2
+4 verbose install initial load of /Applications/MAMP/htdocs/sistemas/sistemas_web/ionic/ionicMap/package.json
+5 warn package.json ionicmap@1.1.1 No repository field.
+6 warn package.json ionicmap@1.1.1 No README data
+7 warn package.json ionicmap@1.1.1 No license field.
+8 verbose readDependencies loading dependencies from /Applications/MAMP/htdocs/sistemas/sistemas_web/ionic/ionicMap/package.json
+9 silly cache add args [ 'cordova', null ]
+10 verbose cache add spec cordova
+11 silly cache add args [ 'plugin', null ]
+12 verbose cache add spec plugin
+13 silly cache add args [ 'add', null ]
+14 verbose cache add spec add
+15 silly cache add args [ 'https://git-wip-us.apache.org/repos/asf/cordova-plugin-geolocation.git',
+15 silly cache add   null ]
+16 verbose cache add spec https://git-wip-us.apache.org/repos/asf/cordova-plugin-geolocation.git
+17 silly cache add parsed spec Result {
+17 silly cache add   raw: 'cordova',
+17 silly cache add   scope: null,
+17 silly cache add   name: 'cordova',
+17 silly cache add   rawSpec: '',
+17 silly cache add   spec: '*',
+17 silly cache add   type: 'range' }
+18 silly addNamed cordova@*
+19 verbose addNamed "*" is a valid semver range for cordova
+20 silly addNameRange { name: 'cordova', range: '*', hasData: false }
+21 silly mapToRegistry name cordova
+22 silly mapToRegistry using default registry
+23 silly mapToRegistry registry https://registry.npmjs.org/
+24 silly mapToRegistry uri https://registry.npmjs.org/cordova
+25 verbose addNameRange registry:https://registry.npmjs.org/cordova not in flight; fetching
+26 silly cache add parsed spec Result {
+26 silly cache add   raw: 'plugin',
+26 silly cache add   scope: null,
+26 silly cache add   name: 'plugin',
+26 silly cache add   rawSpec: '',
+26 silly cache add   spec: '*',
+26 silly cache add   type: 'range' }
+27 silly addNamed plugin@*
+28 verbose addNamed "*" is a valid semver range for plugin
+29 silly addNameRange { name: 'plugin', range: '*', hasData: false }
+30 silly mapToRegistry name plugin
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/plugin
+34 verbose addNameRange registry:https://registry.npmjs.org/plugin not in flight; fetching
+35 silly cache add parsed spec Result {
+35 silly cache add   raw: 'add',
+35 silly cache add   scope: null,
+35 silly cache add   name: 'add',
+35 silly cache add   rawSpec: '',
+35 silly cache add   spec: '*',
+35 silly cache add   type: 'range' }
+36 silly addNamed add@*
+37 verbose addNamed "*" is a valid semver range for add
+38 silly addNameRange { name: 'add', range: '*', hasData: false }
+39 silly mapToRegistry name add
+40 silly mapToRegistry using default registry
+41 silly mapToRegistry registry https://registry.npmjs.org/
+42 silly mapToRegistry uri https://registry.npmjs.org/add
+43 verbose addNameRange registry:https://registry.npmjs.org/add not in flight; fetching
+44 silly cache add parsed spec Result {
+44 silly cache add   raw: 'https://git-wip-us.apache.org/repos/asf/cordova-plugin-geolocation.git',
+44 silly cache add   scope: null,
+44 silly cache add   name: null,
+44 silly cache add   rawSpec: 'https://git-wip-us.apache.org/repos/asf/cordova-plugin-geolocation.git',
+44 silly cache add   spec: 'https://git-wip-us.apache.org/repos/asf/cordova-plugin-geolocation.git',
+44 silly cache add   type: 'remote' }
+45 silly mapToRegistry name https://git-wip-us.apache.org/repos/asf/cordova-plugin-geolocation.git
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry uri https://git-wip-us.apache.org/repos/asf/cordova-plugin-geolocation.git
+49 verbose addRemoteTarball https://git-wip-us.apache.org/repos/asf/cordova-plugin-geolocation.git not in flight; adding
+50 verbose addRemoteTarball [ 'https://git-wip-us.apache.org/repos/asf/cordova-plugin-geolocation.git',
+50 verbose addRemoteTarball   null ]
+51 verbose request uri https://registry.npmjs.org/cordova
+52 verbose request no auth needed
+53 info attempt registry request try #1 at 21:18:45
+54 verbose request id 379c9e0113d942de
+55 verbose etag "4FEF2Q004GM1R3GQ6MHX26BBB"
+56 http request GET https://registry.npmjs.org/cordova
+57 verbose request uri https://registry.npmjs.org/plugin
+58 verbose request no auth needed
+59 info attempt registry request try #1 at 21:18:45
+60 verbose etag "QOJIYN5PKZHUIJIJTZ1TFWPO"
+61 http request GET https://registry.npmjs.org/plugin
+62 verbose request uri https://registry.npmjs.org/add
+63 verbose request no auth needed
+64 info attempt registry request try #1 at 21:18:45
+65 verbose etag "6L0ATKRK62R1BGT51Z77BI172"
+66 http request GET https://registry.npmjs.org/add
+67 info retry fetch attempt 1 at 21:18:45
+68 info attempt registry request try #1 at 21:18:45
+69 http fetch GET https://git-wip-us.apache.org/repos/asf/cordova-plugin-geolocation.git
+70 http 304 https://registry.npmjs.org/plugin
+71 silly get cb [ 304,
+71 silly get   { date: 'Tue, 16 Feb 2016 23:18:46 GMT',
+71 silly get     via: '1.1 varnish',
+71 silly get     'cache-control': 'max-age=300',
+71 silly get     etag: '"QOJIYN5PKZHUIJIJTZ1TFWPO"',
+71 silly get     age: '21',
+71 silly get     connection: 'keep-alive',
+71 silly get     'x-served-by': 'cache-jfk1044-JFK',
+71 silly get     'x-cache': 'HIT',
+71 silly get     'x-cache-hits': '1',
+71 silly get     'x-timer': 'S1455664726.338252,VS0,VE0',
+71 silly get     vary: 'Accept' } ]
+72 verbose etag https://registry.npmjs.org/plugin from cache
+73 verbose get saving plugin to /Users/gustavo/.npm/registry.npmjs.org/plugin/.cache.json
+74 silly addNameRange number 2 { name: 'plugin', range: '*', hasData: true }
+75 silly addNameRange versions [ 'plugin',
+75 silly addNameRange   [ '0.0.13',
+75 silly addNameRange     '0.0.14',
+75 silly addNameRange     '0.0.15',
+75 silly addNameRange     '0.1.0',
+75 silly addNameRange     '0.2.0',
+75 silly addNameRange     '0.2.1',
+75 silly addNameRange     '0.2.2',
+75 silly addNameRange     '0.2.3',
+75 silly addNameRange     '0.2.4',
+75 silly addNameRange     '0.2.5',
+75 silly addNameRange     '0.2.6',
+75 silly addNameRange     '0.2.7',
+75 silly addNameRange     '0.3.0',
+75 silly addNameRange     '0.3.1',
+75 silly addNameRange     '0.3.2',
+75 silly addNameRange     '0.3.3' ] ]
+76 silly addNamed plugin@0.3.3
+77 verbose addNamed "0.3.3" is a plain semver version for plugin
+78 silly cache afterAdd plugin@0.3.3
+79 verbose afterAdd /Users/gustavo/.npm/plugin/0.3.3/package/package.json not in flight; writing
+80 verbose afterAdd /Users/gustavo/.npm/plugin/0.3.3/package/package.json written
+81 http 304 https://registry.npmjs.org/cordova
+82 silly get cb [ 304,
+82 silly get   { date: 'Tue, 16 Feb 2016 23:18:46 GMT',
+82 silly get     via: '1.1 varnish',
+82 silly get     'cache-control': 'max-age=300',
+82 silly get     etag: '"4FEF2Q004GM1R3GQ6MHX26BBB"',
+82 silly get     age: '0',
+82 silly get     connection: 'keep-alive',
+82 silly get     'x-served-by': 'cache-jfk1020-JFK',
+82 silly get     'x-cache': 'HIT',
+82 silly get     'x-cache-hits': '1',
+82 silly get     'x-timer': 'S1455664726.397528,VS0,VE25',
+82 silly get     vary: 'Accept' } ]
+83 verbose etag https://registry.npmjs.org/cordova from cache
+84 verbose get saving cordova to /Users/gustavo/.npm/registry.npmjs.org/cordova/.cache.json
+85 http 304 https://registry.npmjs.org/add
+86 silly get cb [ 304,
+86 silly get   { date: 'Tue, 16 Feb 2016 23:18:46 GMT',
+86 silly get     via: '1.1 varnish',
+86 silly get     'cache-control': 'max-age=300',
+86 silly get     etag: '"6L0ATKRK62R1BGT51Z77BI172"',
+86 silly get     age: '0',
+86 silly get     connection: 'keep-alive',
+86 silly get     'x-served-by': 'cache-jfk1046-JFK',
+86 silly get     'x-cache': 'MISS',
+86 silly get     'x-cache-hits': '0',
+86 silly get     'x-timer': 'S1455664726.398804,VS0,VE25',
+86 silly get     vary: 'Accept' } ]
+87 verbose etag https://registry.npmjs.org/add from cache
+88 verbose get saving add to /Users/gustavo/.npm/registry.npmjs.org/add/.cache.json
+89 silly addNameRange number 2 { name: 'cordova', range: '*', hasData: true }
+90 silly addNameRange versions [ 'cordova',
+90 silly addNameRange   [ '0.0.1',
+90 silly addNameRange     '0.0.2',
+90 silly addNameRange     '0.0.3',
+90 silly addNameRange     '0.0.4',
+90 silly addNameRange     '0.0.5',
+90 silly addNameRange     '0.0.6',
+90 silly addNameRange     '0.0.7',
+90 silly addNameRange     '0.0.8',
+90 silly addNameRange     '0.0.9',
+90 silly addNameRange     '0.1.0',
+90 silly addNameRange     '0.1.1',
+90 silly addNameRange     '0.1.2',
+90 silly addNameRange     '0.1.3',
+90 silly addNameRange     '0.1.4',
+90 silly addNameRange     '0.1.5',
+90 silly addNameRange     '0.1.6',
+90 silly addNameRange     '0.1.7',
+90 silly addNameRange     '0.1.8',
+90 silly addNameRange     '0.1.9',
+90 silly addNameRange     '0.1.10',
+90 silly addNameRange     '0.1.11',
+90 silly addNameRange     '0.1.12',
+90 silly addNameRange     '0.1.13',
+90 silly addNameRange     '0.1.14',
+90 silly addNameRange     '2.2.0',
+90 silly addNameRange     '2.3.0',
+90 silly addNameRange     '2.3.1',
+90 silly addNameRange     '2.3.2',
+90 silly addNameRange     '2.3.3',
+90 silly addNameRange     '2.3.5',
+90 silly addNameRange     '2.3.6',
+90 silly addNameRange     '2.4.0',
+90 silly addNameRange     '2.4.1',
+90 silly addNameRange     '2.4.2',
+90 silly addNameRange     '2.4.3',
+90 silly addNameRange     '2.4.4',
+90 silly addNameRange     '2.4.5',
+90 silly addNameRange     '2.4.6',
+90 silly addNameRange     '2.4.7',
+90 silly addNameRange     '2.4.8',
+90 silly addNameRange     '2.4.9',
+90 silly addNameRange     '2.4.10',
+90 silly addNameRange     '2.5.0',
+90 silly addNameRange     '2.5.2',
+90 silly addNameRange     '2.5.3',
+90 silly addNameRange     '2.5.4',
+90 silly addNameRange     '2.5.5',
+90 silly addNameRange     '2.6.0',
+90 silly addNameRange     '2.6.1',
+90 silly addNameRange     '2.6.2',
+90 silly addNameRange     '2.7.0-rc.1',
+90 silly addNameRange     '2.7.1-rc.1',
+90 silly addNameRange     '2.7.2',
+90 silly addNameRange     '2.7.3',
+90 silly addNameRange     '2.7.4',
+90 silly addNameRange     '2.8.0',
+90 silly addNameRange     '2.8.1',
+90 silly addNameRange     '2.8.2',
+90 silly addNameRange     '2.8.3',
+90 silly addNameRange     '2.8.4',
+90 silly addNameRange     '2.8.5',
+90 silly addNameRange     '2.8.6',
+90 silly addNameRange     '2.8.7',
+90 silly addNameRange     '2.8.8',
+90 silly addNameRange     '2.8.9',
+90 silly addNameRange     '2.8.10',
+90 silly addNameRange     '2.8.11',
+90 silly addNameRange     '2.8.12',
+90 silly addNameRange     '2.8.13',
+90 silly addNameRange     '2.8.14',
+90 silly addNameRange     '2.8.15',
+90 silly addNameRange     '2.8.16',
+90 silly addNameRange     '2.8.17',
+90 silly addNameRange     '2.8.18',
+90 silly addNameRange     '2.8.19',
+90 silly addNameRange     '2.8.20',
+90 silly addNameRange     '2.8.21',
+90 silly addNameRange     '2.8.22',
+90 silly addNameRange     '2.8.23',
+90 silly addNameRange     '2.8.24',
+90 silly addNameRange     '2.8.25',
+90 silly addNameRange     '2.9.0',
+90 silly addNameRange     '2.9.1',
+90 silly addNameRange     '2.9.2',
+90 silly addNameRange     '2.9.3',
+90 silly addNameRange     '2.9.4',
+90 silly addNameRange     '2.9.5',
+90 silly addNameRange     '2.9.6',
+90 silly addNameRange     '2.9.7',
+90 silly addNameRange     '3.0.0-rc1',
+90 silly addNameRange     '3.0.0-rc1-1',
+90 silly addNameRange     '3.0.0-rc1-3',
+90 silly addNameRange     '3.0.0',
+90 silly addNameRange     '3.0.1',
+90 silly addNameRange     '3.0.2',
+90 silly addNameRange     '3.0.3',
+90 silly addNameRange     '3.0.4',
+90 silly addNameRange     '3.0.5',
+90 silly addNameRange     '3.0.6',
+90 silly addNameRange     '3.0.7',
+90 silly addNameRange     '3.0.8',
+90 silly addNameRange     '3.0.9',
+90 silly addNameRange     '3.0.10',
+90 silly addNameRange     '3.1.0-0.1.0',
+90 silly addNameRange     '3.1.0-0.2.0',
+90 silly addNameRange     '3.2.0-rc.1',
+90 silly addNameRange     '3.2.0-0.1.0',
+90 silly addNameRange     '3.2.0-0.2.0',
+90 silly addNameRange     '3.2.0-0.3.0',
+90 silly addNameRange     '3.2.0-0.4.0',
+90 silly addNameRange     '3.3.0-rc.1',
+90 silly addNameRange     '3.3.0-0.1.1',
+90 silly addNameRange     '3.3.1-0.1.2',
+90 silly addNameRange     '2.9.0-rc1',
+90 silly addNameRange     '3.3.1-0.3.0',
+90 silly addNameRange     '3.3.1-0.3.1',
+90 silly addNameRange     '3.3.1-0.4.1',
+90 silly addNameRange     '3.3.1-0.4.2',
+90 silly addNameRange     '3.4.0-0.1.0',
+90 silly addNameRange     '3.4.0-0.1.1',
+90 silly addNameRange     '3.4.0-0.1.2',
+90 silly addNameRange     '3.4.0-0.1.3',
+90 silly addNameRange     '0.0.0-fake',
+90 silly addNameRange     '3.4.1-0.1.0',
+90 silly addNameRange     '3.5.0-0.2.0',
+90 silly addNameRange     '3.5.0-0.2.1',
+90 silly addNameRange     '3.5.0-0.2.2',
+90 silly addNameRange     '3.5.0-0.2.3',
+90 silly addNameRange     '3.5.0-0.2.4',
+90 silly addNameRange     '3.5.0-0.2.6',
+90 silly addNameRange     '3.5.0-0.2.7',
+90 silly addNameRange     '3.6.0-0.2.8',
+90 silly addNameRange     '3.6.0-0.2.9',
+90 silly addNameRange     '3.6.1-0.2.10',
+90 silly addNameRange     '3.6.3-0.2.11',
+90 silly addNameRange     '3.6.3-0.2.12',
+90 silly addNameRange     '3.6.3-0.2.13',
+90 silly addNameRange     '4.0.0',
+90 silly addNameRange     '4.0.1',
+90 silly addNameRange     '4.1.0',
+90 silly addNameRange     '4.1.1',
+90 silly addNameRange     '4.1.2',
+90 silly addNameRange     '4.1.3-nightly.2014.10.21',
+90 silly addNameRange     '4.2.0',
+90 silly addNameRange     '4.3.0',
+90 silly addNameRange     '5.0.0',
+90 silly addNameRange     '4.3.1',
+90 silly addNameRange     '5.1.1',
+90 silly addNameRange     '5.2.0',
+90 silly addNameRange     '5.3.1',
+90 silly addNameRange     '5.3.3',
+90 silly addNameRange     '5.4.0',
+90 silly addNameRange     '5.4.1',
+90 silly addNameRange     '6.0.0' ] ]
+91 silly addNamed cordova@6.0.0
+92 verbose addNamed "6.0.0" is a plain semver version for cordova
+93 silly addNameRange number 2 { name: 'add', range: '*', hasData: true }
+94 silly addNameRange versions [ 'add',
+94 silly addNameRange   [ '1.0.0', '2.0.0', '2.0.1', '2.0.2', '2.0.4', '2.0.5', '2.0.6' ] ]
+95 silly addNamed add@2.0.6
+96 verbose addNamed "2.0.6" is a plain semver version for add
+97 silly cache afterAdd add@2.0.6
+98 verbose afterAdd /Users/gustavo/.npm/add/2.0.6/package/package.json not in flight; writing
+99 silly cache afterAdd cordova@6.0.0
+100 verbose afterAdd /Users/gustavo/.npm/cordova/6.0.0/package/package.json not in flight; writing
+101 verbose afterAdd /Users/gustavo/.npm/add/2.0.6/package/package.json written
+102 verbose afterAdd /Users/gustavo/.npm/cordova/6.0.0/package/package.json written
+103 http fetch 200 https://git-wip-us.apache.org/repos/asf/cordova-plugin-geolocation.git
+104 silly fetchAndShaCheck shasum 8e528471cf0dceac933285bc65f527e7ede83371
+105 verbose addTmpTarball /tmp/npm-74453-d96875cc/git-wip-us.apache.org/repos/asf/cordova-plugin-geolocation.git not in flight; adding
+106 verbose addTmpTarball validating metadata from /tmp/npm-74453-d96875cc/git-wip-us.apache.org/repos/asf/cordova-plugin-geolocation.git
+107 verbose tar unpack /tmp/npm-74453-d96875cc/git-wip-us.apache.org/repos/asf/cordova-plugin-geolocation.git
+108 verbose tar unpacking to /tmp/npm-74453-d96875cc/unpack-798a4927a5b8
+109 silly gentlyRm /tmp/npm-74453-d96875cc/unpack-798a4927a5b8 is being purged
+110 verbose gentlyRm don't care about contents; nuking /tmp/npm-74453-d96875cc/unpack-798a4927a5b8
+111 silly gunzTarPerm modes [ '755', '644' ]
+112 error not a package /tmp/npm-74453-d96875cc/git-wip-us.apache.org/repos/asf/cordova-plugin-geolocation.git
+113 verbose stack Error: ENOENT: no such file or directory, open '/tmp/npm-74453-d96875cc/unpack-798a4927a5b8/package.json'
+113 verbose stack     at Error (native)
+114 verbose cwd /Applications/MAMP/htdocs/sistemas/sistemas_web/ionic/ionicMap
+115 error Darwin 15.2.0
+116 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "cordova" "plugin" "add" "https://git-wip-us.apache.org/repos/asf/cordova-plugin-geolocation.git"
+117 error node v4.1.2
+118 error npm  v2.14.4
+119 error path /tmp/npm-74453-d96875cc/unpack-798a4927a5b8/package.json
+120 error code ENOENT
+121 error errno -2
+122 error syscall open
+123 error enoent ENOENT: no such file or directory, open '/tmp/npm-74453-d96875cc/unpack-798a4927a5b8/package.json'
+123 error enoent This is most likely not a problem with npm itself
+123 error enoent and is related to npm not being able to find a file.
+124 verbose exit [ -2, true ]
